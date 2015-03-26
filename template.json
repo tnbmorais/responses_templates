@@ -1,0 +1,7 @@
+{
+    "{{marketId}}": {
+        "marketId": "{{marketId}}",
+        "key": "MARKET:{{marketId}}",
+        "eventTypeId": "{{eventTypeId}}"
+    }
+}
