@@ -1,5 +1,5 @@
 var mustache = require('mustache');
-var marketsTemplate = require('./template.json');
+var marketsTemplate = require('./templates/marketlite-template.json');
 
 console.log(marketsTemplate);
 
