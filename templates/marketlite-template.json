@@ -7,7 +7,7 @@
         "upperLevelEventId": "{{upperLevelEventId}}{{^upperLevelEventId}}1111111{{/upperLevelEventId}}",
         "topLevelEventId": "{{topLevelEventId}}{{^topLevelEventId}}1111111{{/topLevelEventId}}",
         "numberOfUpperLevels": 0,
-        "marketName": "2014/15 Winner",
+        "marketName": "{{marketName}}{{^marketName}}Market 1111{{/marketName}}",
         "marketTime": "2014-08-16T11:45:00.000Z",
         "marketType": "WINNER",
         "inplay": false,
