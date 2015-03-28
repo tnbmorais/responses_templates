@@ -1,0 +1,7 @@
+{
+  "name": "templates",
+  "version": "0.1.0",
+  "dependencies": {
+    "mustache": "~2.0.0"
+  }
+}
