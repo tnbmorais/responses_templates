@@ -1,33 +1,31 @@
 {
-    "{{marketId}}": {
-        "marketId": "{{marketId}}{{^marketId}}1.111111111{{/marketId}}",
-        "key": "MARKET:{{marketId}}{{^marketId}}1.111111111{{/marketId}}",
-        "eventTypeId": "{{eventTypeId}}{{^eventTypeId}}1{{/eventTypeId}}",
-        "eventId": "{{eventId}}{{^eventId}}1111111{{/eventId}}",
-        "upperLevelEventId": "{{upperLevelEventId}}{{^upperLevelEventId}}1111111{{/upperLevelEventId}}",
-        "topLevelEventId": "{{topLevelEventId}}{{^topLevelEventId}}1111111{{/topLevelEventId}}",
-        "numberOfUpperLevels": 0,
-        "marketName": "{{marketName}}{{^marketName}}Market 1111{{/marketName}}",
-        "marketTime": "2014-08-16T11:45:00.000Z",
-        "marketType": "WINNER",
-        "inplay": false,
-        "totalMatched": 21484911.931584,
-        "totalAvailable": 1768906.7448,
-        "numberOfRunners": 20,
-        "numberOfActiveRunners": 8,
-        "numberOfWinners": 1,
-        "associatedMarkets": [
-            {
-                "eventId": 2022802,
-                "sportsbookMarketId": "924.10890840",
-                "eventTypeId": 1
-            }
-        ],
-        "canTurnInPlay": true,
-        "marketLevels": [
-            "COMPETITION"
-        ],
-        "marketStatus": "OPEN",
-        "productType": "EXCHANGE"
-    }
+    "marketId": "{{marketId}}{{^marketId}}1.111111111{{/marketId}}",
+    "key": "MARKET:{{marketId}}{{^marketId}}1.111111111{{/marketId}}",
+    "eventTypeId": "{{eventTypeId}}{{^eventTypeId}}1{{/eventTypeId}}",
+    "eventId": "{{eventId}}{{^eventId}}1111111{{/eventId}}",
+    "upperLevelEventId": "{{upperLevelEventId}}{{^upperLevelEventId}}1111111{{/upperLevelEventId}}",
+    "topLevelEventId": "{{topLevelEventId}}{{^topLevelEventId}}1111111{{/topLevelEventId}}",
+    "numberOfUpperLevels": 0,
+    "marketName": "{{marketName}}{{^marketName}}Market 1111{{/marketName}}",
+    "marketTime": "2014-08-16T11:45:00.000Z",
+    "marketType": "WINNER",
+    "inplay": false,
+    "totalMatched": 21484911.931584,
+    "totalAvailable": 1768906.7448,
+    "numberOfRunners": 20,
+    "numberOfActiveRunners": 8,
+    "numberOfWinners": 1,
+    "associatedMarkets": [
+        {
+            "eventId": 2022802,
+            "sportsbookMarketId": "924.10890840",
+            "eventTypeId": 1
+        }
+    ],
+    "canTurnInPlay": true,
+    "marketLevels": [
+        "COMPETITION"
+    ],
+    "marketStatus": "OPEN",
+    "productType": "EXCHANGE"
 }

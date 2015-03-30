@@ -1,0 +1,77 @@
+{
+    "facets": [
+        {
+            "values": [
+                {
+                    "value": "1",
+                    "cardinality": 1
+                }
+            ],
+            "totalResults": 1,
+            "type": "EXCHANGE"
+        }
+    ],
+    "results": [
+        {
+            "eventId": 2022802,
+            "marketId": "1.113659986",
+            "competitionId": 31,
+            "eventTypeId": 1
+        }
+    ],
+    "attachments": {
+        "events": {
+            "2022802": {
+                "eventId": 2022802,
+                "key": "EVENT:2022802",
+                "name": "Barclays Premier League",
+                "eventTypeId": 1,
+                "countryCode": "GB",
+                "timezone": "Europe/London",
+                "openDate": "2014-11-08T15:00:00.000Z",
+                "videoAvailable": false
+            }
+        },
+        "competitions": {
+            "31": {
+                "key": "COMP:31",
+                "name": "Barclays Premier League",
+                "competitionId": 31,
+                "eventId": 2022802
+            }
+        },
+        "liteMarkets": {
+            "1.113659986": {
+                "marketId": "1.113659986",
+                "key": "MARKET:1.113659986",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "2014/15 Winner",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "WINNER",
+                "inplay": false,
+                "totalMatched": 21484911.931584,
+                "totalAvailable": 1768906.7448,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 8,
+                "numberOfWinners": 1,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.10890840",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            }
+        }
+    }
+}

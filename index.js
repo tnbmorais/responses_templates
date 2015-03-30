@@ -1,7 +1,5 @@
 var mustache = require('mustache');
-var marketsTemplate = require('./templates/marketlite-template.json');
-
-console.log(marketsTemplate);
+var marketLiteTemplate = require('./templates/marketlite-template.json');
 
 var baseResponse = {
     facets: [],
@@ -9,18 +7,43 @@ var baseResponse = {
     results: []
 };
 
+
+function buildLitemarketsInformation(markets) {
+
+    var marketInformation;
+    var i;
+
+    if (!markets || markets.length < 1) {
+        return;
+    }
+
+    baseResponse.facets.liteMarkets = {};
+
+    markets.forEach(function (market) {
+        marketInformation = JSON.parse(mustache.render(JSON.stringify(marketLiteTemplate), market));
+        baseResponse.facets.liteMarkets[market.marketId] = marketInformation;        
+    });
+}
+
+
 function constructResponse(obj) {
-    var marketInformation = mustache.render(JSON.stringify(marketsTemplate), obj);
-    baseResponse.facets.push(JSON.parse(marketInformation));
+
+    buildLitemarketsInformation(obj.liteMarkets);
+
 }
 
 /****************** CENAS **********************/
 
 var obj = {
-    marketId: 'xpto',
-    eventTypeId: 10
+    liteMarkets: [{
+        marketId: 'xpto',
+        eventTypeId: 10
+    }, {
+        marketId: 'xpto2',
+        eventTypeId: 10
+    }]
 };
 
 constructResponse(obj);
 
-console.log(JSON.stringify(baseResponse));
+console.log('RESPONSE', JSON.stringify(baseResponse));
