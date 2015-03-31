@@ -1,38 +1,6 @@
-var mustache = require('mustache');
-var marketLiteTemplate = require('./templates/marketlite-template.json');
+var facetBuilder = require('./facet-builder.js');
 
-var baseResponse = {
-    facets: [],
-    attachments: [],
-    results: []
-};
-
-
-function buildLitemarketsInformation(markets) {
-
-    var marketInformation;
-    var i;
-
-    if (!markets || markets.length < 1) {
-        return;
-    }
-
-    baseResponse.facets.liteMarkets = {};
-
-    markets.forEach(function (market) {
-        marketInformation = JSON.parse(mustache.render(JSON.stringify(marketLiteTemplate), market));
-        baseResponse.facets.liteMarkets[market.marketId] = marketInformation;        
-    });
-}
-
-
-function constructResponse(obj) {
-
-    buildLitemarketsInformation(obj.liteMarkets);
-
-}
-
-/****************** CENAS **********************/
+/****************** FACET **********************/
 
 var obj = {
     liteMarkets: [{
@@ -44,6 +12,6 @@ var obj = {
     }]
 };
 
-constructResponse(obj);
+var marketliteInformation = facetBuilder.constructResponse(obj);
 
-console.log('RESPONSE', JSON.stringify(baseResponse));
+console.log('RESPONSE', JSON.stringify(marketliteInformation));
