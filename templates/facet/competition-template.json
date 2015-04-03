@@ -1,0 +1,6 @@
+{
+    "key": "{{competitionKey}}{{^competitionKey}}COMP:11{{/competitionKey}}",
+    "name": "{{competitionName}}{{^competitionName}}Competition 11{{/competitionName}}",
+    "competitionId": "{{competitionId}}{{^competitionId}}11{{/competitionId}}",
+    "eventId": "{{eventId}}{{^eventId}}1111111{{/eventId}}"
+}

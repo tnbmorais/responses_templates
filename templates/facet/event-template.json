@@ -1,0 +1,10 @@
+{
+    "eventId": "{{eventId}}{{^eventId}}1111111{{/eventId}}",
+    "key": "{{eventkey}}{{^eventkey}}EVENT:1111111{{/eventIdkey}}",
+    "name": "{{eventName}}{{^eventName}}Event 1111111{{/eventName}}",
+    "eventTypeId": "{{eventTypeId}}{{^eventTypeId}}1{{/eventTypeId}}",
+    "countryCode": "{{eventCountryCode}}{{^eventCountryCode}}GB{{/eventCountryCode}}",
+    "timezone": "Europe/London",
+    "openDate": "{{eventOpenDate}}{{^eventOpenDate}}2014-11-08T15:00:00.000Z{{/eventOpenDate}}",
+    "videoAvailable": "{{eventVideoAvailable}}{{^eventVideoAvailable}}false{{/eventVideoAvailable}}"
+}

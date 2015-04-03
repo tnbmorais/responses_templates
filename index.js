@@ -9,9 +9,13 @@ var obj = {
     }, {
         marketId: 'xpto2',
         eventTypeId: 10
+    }],
+    competitions: [{
+        competitionId: 'XXX',
+        competitionName: 'Competition XXX'
     }]
 };
 
-var marketliteInformation = facetBuilder.constructResponse(obj);
+var marketliteInformation = facetBuilder.constructFacetMock(obj);
 
 console.log('RESPONSE', JSON.stringify(marketliteInformation));
