@@ -1,6 +1,6 @@
 {
     "eventId": "{{eventId}}{{^eventId}}1111111{{/eventId}}",
-    "key": "{{eventkey}}{{^eventkey}}EVENT:1111111{{/eventIdkey}}",
+    "key": "{{eventkey}}{{^eventkey}}EVENT:1111111{{/eventkey}}",
     "name": "{{eventName}}{{^eventName}}Event 1111111{{/eventName}}",
     "eventTypeId": "{{eventTypeId}}{{^eventTypeId}}1{{/eventTypeId}}",
     "countryCode": "{{eventCountryCode}}{{^eventCountryCode}}GB{{/eventCountryCode}}",

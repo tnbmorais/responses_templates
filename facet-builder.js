@@ -48,6 +48,29 @@ function buildCompetitionsInformation(baseResponse, competitions) {
 }
 
 
+function buildEventsInformation(baseResponse, events) {
+
+    var eventInformation;
+    var eventTemplate;
+
+    if (!events || events.length < 1) {
+        return;
+    }
+
+    eventTemplate = require(templatesLocation + 'event-template.json');
+
+    baseResponse.attachments.events = {};
+
+    events.forEach(function (event) {
+        if (!event.eventId) {
+            return;
+        }
+        eventInformation = JSON.parse(mustache.render(JSON.stringify(eventTemplate), event));
+        baseResponse.attachments.events[event.eventId] = eventInformation;
+    });
+}
+
+
 function constructFacetMock(info) {
 
     var baseResponse = {
@@ -56,10 +79,13 @@ function constructFacetMock(info) {
         results: []
     };
 
-    //Competitions
+    // Competitions
     buildCompetitionsInformation(baseResponse, info.competitions);
 
-    //Lite Markets
+    // Events
+    buildEventsInformation(baseResponse, info.events);
+
+    // Lite Markets
     buildLitemarketsInformation(baseResponse, info.liteMarkets);
 
     return baseResponse;
