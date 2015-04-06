@@ -6,7 +6,8 @@ var mock = {
     attachments: {
         liteMarkets: [{
             marketId: 'xpto',
-            eventTypeId: 10
+            eventTypeId: 10,
+            marketLevels: 'CENAS'
         }, {
             marketId: 'xpto2',
             eventTypeId: 10

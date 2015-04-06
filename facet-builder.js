@@ -22,6 +22,11 @@ function buildAttachments(baseResponse, attachments) {
                 return;
             }
             marketInformation = JSON.parse(mustache.render(JSON.stringify(marketLiteTemplate), market));
+
+            if (market.marketLevels) {
+                marketInformation.marketLevels.push(market.marketLevels);
+            }
+
             baseResponse.attachments.liteMarkets[market.marketId] = marketInformation;
         });
     }

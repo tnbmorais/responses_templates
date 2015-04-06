@@ -23,9 +23,7 @@
         }
     ],
     "canTurnInPlay": true,
-    "marketLevels": [
-        "COMPETITION"
-    ],
+    "marketLevels": [],
     "marketStatus": "OPEN",
     "productType": "EXCHANGE"
 }
