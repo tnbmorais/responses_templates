@@ -1,7 +1,7 @@
 var mustache = require('mustache');
 var templatesLocation = './templates/facet/';
 
-function buildLitemarketsInformation(baseResponse, litemarkets) {
+function buildLitemarketsAttachments(baseResponse, litemarkets) {
 
     var marketInformation;
     var marketLiteTemplate;
@@ -24,7 +24,7 @@ function buildLitemarketsInformation(baseResponse, litemarkets) {
 }
 
 
-function buildCompetitionsInformation(baseResponse, competitions) {
+function buildCompetitionsAttachments(baseResponse, competitions) {
 
     var competitionInformation;
     var competitionTemplate;
@@ -48,7 +48,7 @@ function buildCompetitionsInformation(baseResponse, competitions) {
 }
 
 
-function buildEventsInformation(baseResponse, events) {
+function buildEventsAttachments(baseResponse, events) {
 
     var eventInformation;
     var eventTemplate;
@@ -80,13 +80,13 @@ function constructFacetMock(info) {
     };
 
     // Competitions
-    buildCompetitionsInformation(baseResponse, info.competitions);
+    buildCompetitionsAttachments(baseResponse, info.competitions);
 
     // Events
-    buildEventsInformation(baseResponse, info.events);
+    buildEventsAttachments(baseResponse, info.events);
 
     // Lite Markets
-    buildLitemarketsInformation(baseResponse, info.liteMarkets);
+    buildLitemarketsAttachments(baseResponse, info.liteMarkets);
 
     return baseResponse;
 
