@@ -71,7 +71,7 @@ function buildEventsAttachments(baseResponse, events) {
 }
 
 
-function buildAttachmemts(baseResponse, attachments) {
+function buildAttachments(baseResponse, attachments) {
 
     // Competitions attachments
     buildCompetitionsAttachments(baseResponse, attachments.competitions);
@@ -111,7 +111,7 @@ function constructFacetMock(info) {
     };
 
     // Attachments
-    buildAttachmemts(baseResponse, info.attachments);
+    buildAttachments(baseResponse, info.attachments);
 
     // Results
     buildResults(baseResponse, info.results);
