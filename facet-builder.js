@@ -71,6 +71,37 @@ function buildEventsAttachments(baseResponse, events) {
 }
 
 
+function buildAttachmemts(baseResponse, attachments) {
+
+    // Competitions attachments
+    buildCompetitionsAttachments(baseResponse, attachments.competitions);
+
+    // Events attachments
+    buildEventsAttachments(baseResponse, attachments.events);
+
+    // Lite Markets attachments
+    buildLitemarketsAttachments(baseResponse, attachments.liteMarkets);
+
+}
+
+function buildResults(baseResponse, results) {
+
+    var possibleKeys = ['eventId', 'marketId', 'competitionId', 'eventTypeId'];
+
+    if (!results || results.length < 1) {
+        return;
+    }
+
+    Object.keys(results).forEach(function (key) {
+        if (possibleKeys.indexOf(key) === -1) {
+            delete results[key];
+        }
+    });
+
+    baseResponse.results.push(results);
+}
+
+
 function constructFacetMock(info) {
 
     var baseResponse = {
@@ -79,14 +110,11 @@ function constructFacetMock(info) {
         results: []
     };
 
-    // Competitions
-    buildCompetitionsAttachments(baseResponse, info.competitions);
+    // Attachments
+    buildAttachmemts(baseResponse, info.attachments);
 
-    // Events
-    buildEventsAttachments(baseResponse, info.events);
-
-    // Lite Markets
-    buildLitemarketsAttachments(baseResponse, info.liteMarkets);
+    // Results
+    buildResults(baseResponse, info.results);
 
     return baseResponse;
 
