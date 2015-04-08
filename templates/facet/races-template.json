@@ -1,0 +1,15 @@
+{
+    "key": "{{key}}{{^key}}RACE:11111111.1111{{/key}}",
+    "raceId": "{{raceId}}{{^raceId}}11111111.1111{{/raceId}}",
+    "winMarketId": "{{winMarketId}}{{^winMarketId}}1.111111111{{/winMarketId}}",
+    "winMarketName": "{{winMarketName}}{{^winMarketName}}Market 1111{{/winMarketName}}",
+    "userStartTime": "{{userStartTime}}{{^userStartTime}}15:25{{/userStartTime}}",
+    "startTime": "{{startTime}}{{^startTime}}2015-04-09T14:25:00.000Z{{/startTime}}",
+    "eventTypeId": "{{eventTypeId}}{{^eventTypeId}}7{{/eventTypeId}}",
+    "eventId": "{{eventId}}{{^eventId}}11111111{{/eventId}}",
+    "countryCode": "{{countryCode}}{{^countryCode}}GB{{/countryCode}}",
+    "timezone": "Europe/London",
+    "venue": "{{venue}}{{^venue}}Aintree{{/venue}}",
+    "videoAvailable": "{{videoAvailable}}{{^videoAvailable}}true{{/videoAvailable}}",
+    "meetingId": "{{meetingId}}{{^meetingId}}11111111{{/meetingId}}"
+}

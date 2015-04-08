@@ -12,6 +12,10 @@ var mock = {
             marketId: 'xpto2',
             eventTypeId: 10
         }],
+        races: [{
+            raceId: '12356',
+            winMarketName: 'Race 123456'
+        }],
         competitions: [{
             competitionId: 'XXX',
             competitionName: 'Competition XXX'

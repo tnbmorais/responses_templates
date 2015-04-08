@@ -78,6 +78,28 @@ function buildAttachments(baseResponse, attachments) {
         });
     }
 
+    function buildRacesAttachments(baseResponse, races) {
+        
+        var raceInformation;
+        var raceTemplate;
+
+        if (!races || races.length < 1) {
+            return;
+        }
+
+        raceTemplate = require(templatesLocation + 'races-template.json');
+
+        baseResponse.attachments.races = {};
+
+        races.forEach(function (race) {
+            if (!race.raceId) {
+                return;
+            }
+            raceInformation = JSON.parse(mustache.render(JSON.stringify(raceTemplate), race));
+            baseResponse.attachments.races[race.raceId] = raceInformation;
+        });
+    }
+
     // Competitions attachments
     buildCompetitionsAttachments(baseResponse, attachments.competitions);
 
@@ -86,6 +108,9 @@ function buildAttachments(baseResponse, attachments) {
 
     // Lite Markets attachments
     buildLitemarketsAttachments(baseResponse, attachments.liteMarkets);
+
+    // Races attachments
+    buildRacesAttachments(baseResponse, attachments.races);
 
 }
 
