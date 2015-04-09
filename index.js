@@ -35,7 +35,18 @@ var mock = {
         marketId: '1.123456789',
         eventId: '2222222',
         cenas: 'xpot'
-    }
+    },
+    facets: [{
+        type: 'event',
+        key: 'SAS',
+        children: [{
+            type: 'liteMarkets',
+            key: 'xpto'
+        }, {
+            type: 'Competition',
+            key: 'XXX'
+        }]
+    }]
 };
 
 var marketliteInformation = facetBuilder.constructFacetMock(mock);

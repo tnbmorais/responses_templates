@@ -79,7 +79,7 @@ function buildAttachments(baseResponse, attachments) {
     }
 
     function buildRacesAttachments(baseResponse, races) {
-        
+
         var raceInformation;
         var raceTemplate;
 
@@ -132,6 +132,17 @@ function buildResults(baseResponse, results) {
 }
 
 
+function buildFacets(baseResponse, facets) {
+
+    if (!facets || facets.lenght < 1) {
+        return;
+    }
+
+    
+
+}
+
+
 function constructFacetMock(info) {
 
     var baseResponse = {
@@ -145,6 +156,9 @@ function constructFacetMock(info) {
 
     // Results
     buildResults(baseResponse, info.results);
+
+    // Facets
+    buildFacets(baseResponse, info.facets);
 
     return baseResponse;
 

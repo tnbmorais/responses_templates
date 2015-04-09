@@ -75,3 +75,839 @@
         }
     }
 }
+
+{
+    "facets": [
+        {
+            "values": [
+                {
+                    "key": {
+                        "eventId": 2022802
+                    },
+                    "cardinality": 24,
+                    "next": {
+                        "values": [
+                            {
+                                "key": {
+                                    "marketId": "1.113659986"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029758"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029759"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029760"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029762"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029769"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029770"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114084246"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114084251"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114779267"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114779269"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114779851"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114895371"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029764"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029765"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029771"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114779271"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029761"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029766"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114084208"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029767"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029768"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029772"
+                                },
+                                "cardinality": 1
+                            },
+                            {
+                                "key": {
+                                    "marketId": "1.114029773"
+                                },
+                                "cardinality": 1
+                            }
+                        ],
+                        "totalResults": 24,
+                        "type": "MARKET"
+                    }
+                }
+            ],
+            "totalResults": 1,
+            "type": "EVENT"
+        }
+    ],
+    "results": [],
+    "attachments": {
+        "events": {
+            "2022802": {
+                "eventId": 2022802,
+                "key": "EVENT:2022802",
+                "name": "Barclays Premier League",
+                "eventTypeId": 1,
+                "countryCode": "GB",
+                "timezone": "Europe/London",
+                "openDate": "2014-11-08T15:00:00.000Z",
+                "videoAvailable": false
+            }
+        },
+        "liteMarkets": {
+            "1.114029760": {
+                "marketId": "1.114029760",
+                "key": "MARKET:1.114029760",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top Promoted Team 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 47686.28,
+                "totalAvailable": 2108,
+                "numberOfRunners": 3,
+                "numberOfActiveRunners": 3,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029762": {
+                "marketId": "1.114029762",
+                "key": "MARKET:1.114029762",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top Goalscorer 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "TOP_GOALSCORER",
+                "inplay": false,
+                "totalMatched": 494476.26,
+                "totalAvailable": 14026,
+                "numberOfRunners": 69,
+                "numberOfActiveRunners": 69,
+                "numberOfWinners": 1,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.12292217",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029761": {
+                "marketId": "1.114029761",
+                "key": "MARKET:1.114029761",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top Goalscorer - Top 4 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "TOP_GOALSCORER",
+                "inplay": false,
+                "totalMatched": 36029.14,
+                "totalAvailable": 9950,
+                "numberOfRunners": 69,
+                "numberOfActiveRunners": 69,
+                "numberOfWinners": 4,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029764": {
+                "marketId": "1.114029764",
+                "key": "MARKET:1.114029764",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top 2 Finish 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 91058.05,
+                "totalAvailable": 19719,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 10,
+                "numberOfWinners": 2,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.113659986": {
+                "marketId": "1.113659986",
+                "key": "MARKET:1.113659986",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "2014/15 Winner",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "WINNER",
+                "inplay": false,
+                "totalMatched": 16253116.12,
+                "totalAvailable": 835325,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 7,
+                "numberOfWinners": 1,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.10890840",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114779267": {
+                "marketId": "1.114779267",
+                "key": "MARKET:1.114779267",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Team to Score Most Goals 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 8527.1,
+                "totalAvailable": 983,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 20,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029766": {
+                "marketId": "1.114029766",
+                "key": "MARKET:1.114029766",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top 4 Finish 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 1973475.54,
+                "totalAvailable": 29755,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 10,
+                "numberOfWinners": 4,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.11144541",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114779269": {
+                "marketId": "1.114779269",
+                "key": "MARKET:1.114779269",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Team to Score Least Goals 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 2665.24,
+                "totalAvailable": 555,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 20,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029765": {
+                "marketId": "1.114029765",
+                "key": "MARKET:1.114029765",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top 3 Finish 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 154450.74,
+                "totalAvailable": 4677,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 10,
+                "numberOfWinners": 3,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029759": {
+                "marketId": "1.114029759",
+                "key": "MARKET:1.114029759",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Winner W/O Top Seven 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 27691.35,
+                "totalAvailable": 1887,
+                "numberOfRunners": 13,
+                "numberOfActiveRunners": 7,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029768": {
+                "marketId": "1.114029768",
+                "key": "MARKET:1.114029768",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top 10 Finish 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "TOP_N_FINISH",
+                "inplay": false,
+                "totalMatched": 260947.33,
+                "totalAvailable": 9255,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 16,
+                "numberOfWinners": 6,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.11144543",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029767": {
+                "marketId": "1.114029767",
+                "key": "MARKET:1.114029767",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top 6 Finish 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 268076.73,
+                "totalAvailable": 15970,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 14,
+                "numberOfWinners": 6,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.11482955",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029758": {
+                "marketId": "1.114029758",
+                "key": "MARKET:1.114029758",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Winner/Top Goalscorer 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "UNDIFFERENTIATED",
+                "inplay": false,
+                "totalMatched": 23785.78,
+                "totalAvailable": 6855,
+                "numberOfRunners": 55,
+                "numberOfActiveRunners": 55,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029769": {
+                "marketId": "1.114029769",
+                "key": "MARKET:1.114029769",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Straight Forecast 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 119379.2,
+                "totalAvailable": 22107,
+                "numberOfRunners": 30,
+                "numberOfActiveRunners": 30,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114895371": {
+                "marketId": "1.114895371",
+                "key": "MARKET:1.114895371",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Winner W/O Chelsea 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 17108.78,
+                "totalAvailable": 2388,
+                "numberOfRunners": 19,
+                "numberOfActiveRunners": 9,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114084208": {
+                "marketId": "1.114084208",
+                "key": "MARKET:1.114084208",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Top 5 Finish 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 66042.56,
+                "totalAvailable": 3933,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 14,
+                "numberOfWinners": 5,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114779851": {
+                "marketId": "1.114779851",
+                "key": "MARKET:1.114779851",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Relegation Treble 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 13532.82,
+                "totalAvailable": 7437,
+                "numberOfRunners": 155,
+                "numberOfActiveRunners": 154,
+                "numberOfWinners": 1,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.12909262",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114084246": {
+                "marketId": "1.114084246",
+                "key": "MARKET:1.114084246",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Winner W/O Man City 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 24392.89,
+                "totalAvailable": 1836,
+                "numberOfRunners": 19,
+                "numberOfActiveRunners": 6,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029770": {
+                "marketId": "1.114029770",
+                "key": "MARKET:1.114029770",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Rock Bottom 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "ROCK_BOTTOM",
+                "inplay": false,
+                "totalMatched": 54413.1,
+                "totalAvailable": 4994,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 12,
+                "numberOfWinners": 1,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.11144545",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114779271": {
+                "marketId": "1.114779271",
+                "key": "MARKET:1.114779271",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Relegation Double 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 8029.32,
+                "totalAvailable": 4582,
+                "numberOfRunners": 45,
+                "numberOfActiveRunners": 45,
+                "numberOfWinners": 3,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.12909261",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029771": {
+                "marketId": "1.114029771",
+                "key": "MARKET:1.114029771",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Relegation 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "UNDIFFERENTIATED",
+                "inplay": false,
+                "totalMatched": 1608549.24,
+                "totalAvailable": 17947,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 13,
+                "numberOfWinners": 3,
+                "associatedMarkets": [
+                    {
+                        "eventId": 2022802,
+                        "sportsbookMarketId": "924.11144538",
+                        "eventTypeId": 1
+                    }
+                ],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029772": {
+                "marketId": "1.114029772",
+                "key": "MARKET:1.114029772",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Handicap Win 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "inplay": false,
+                "totalMatched": 106848.49,
+                "totalAvailable": 6748,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 16,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114084251": {
+                "marketId": "1.114084251",
+                "key": "MARKET:1.114084251",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Straight Tricast 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "marketType": "SPECIAL",
+                "inplay": false,
+                "totalMatched": 14500.14,
+                "totalAvailable": 4082,
+                "numberOfRunners": 91,
+                "numberOfActiveRunners": 91,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            },
+            "1.114029773": {
+                "marketId": "1.114029773",
+                "key": "MARKET:1.114029773",
+                "eventTypeId": 1,
+                "eventId": 2022802,
+                "upperLevelEventId": 2022802,
+                "topLevelEventId": 2022802,
+                "numberOfUpperLevels": 0,
+                "marketName": "Handicap Bottom 2014/15",
+                "marketTime": "2014-08-16T11:45:00.000Z",
+                "inplay": false,
+                "totalMatched": 7471.18,
+                "totalAvailable": 3388,
+                "numberOfRunners": 20,
+                "numberOfActiveRunners": 15,
+                "numberOfWinners": 1,
+                "associatedMarkets": [],
+                "canTurnInPlay": true,
+                "marketLevels": [
+                    "COMPETITION"
+                ],
+                "marketStatus": "OPEN",
+                "productType": "EXCHANGE"
+            }
+        }
+    }
+}
