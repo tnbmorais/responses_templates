@@ -134,11 +134,20 @@ function buildResults(baseResponse, results) {
 
 function buildFacets(baseResponse, facets) {
 
+    var facetsInfo = [];
+
     if (!facets || facets.lenght < 1) {
         return;
     }
 
-    
+    (function transverseFacets(facets) {
+        facets.forEach(function (facet) {
+            console.log(facet);
+            if (facet.next) {
+                transverseFacets(facet.next);
+            }
+        });
+    }(facets));
 
 }
 
