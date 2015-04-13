@@ -134,20 +134,44 @@ function buildResults(baseResponse, results) {
 
 function buildFacets(baseResponse, facets) {
 
-    var facetsInfo = [];
+    var facetsInfo = {
+        values: []
+    };
 
     if (!facets || facets.lenght < 1) {
         return;
     }
 
-    (function transverseFacets(facets) {
+    /*
+    (function transverseFacets(facetsInfo, facets) {
         facets.forEach(function (facet) {
-            console.log(facet);
+            var fieldKey;
+            switch(facet.type) {
+                case 'competition':
+                    fieldKey = 'competitionId';
+                    break;
+                case 'liteMarket':
+                    fieldKey = 'marketId';
+                    break;
+                case 'market':
+                    fieldKey = 'marketId';
+                    break;
+                case 'event':
+                    fieldKey = 'eventId';
+                    break;
+            }
+            facetsInfo.values.push({
+                key: {
+                    fieldKey: facet.key
+                },
+                cardinality: 1,
+            });
             if (facet.next) {
                 transverseFacets(facet.next);
             }
         });
-    }(facets));
+    }(facetsInfo, facets));
+    */
 
 }
 

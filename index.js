@@ -40,7 +40,7 @@ var mock = {
         type: 'Competition',
         key: 'XXX',
         next: [{
-            type: 'liteMarkets',
+            type: 'liteMarket',
             key: 'xpto'
         }, {
             type: 'event',
