@@ -142,10 +142,15 @@ function buildFacets(baseResponse, facets) {
         return;
     }
 
-    /*
     (function transverseFacets(facetsInfo, facets) {
+
         facets.forEach(function (facet) {
+
             var fieldKey;
+            var facetObj = {
+                cardinality: 1
+            };
+
             switch(facet.type) {
                 case 'competition':
                     fieldKey = 'competitionId';
@@ -160,18 +165,20 @@ function buildFacets(baseResponse, facets) {
                     fieldKey = 'eventId';
                     break;
             }
-            facetsInfo.values.push({
-                key: {
-                    fieldKey: facet.key
-                },
-                cardinality: 1,
-            });
+
+            facetObj[fieldKey] = facet.key;
+
+            facetsInfo.values.push(facetObj);
+
             if (facet.next) {
-                transverseFacets(facet.next);
+                transverseFacets(facetsInfo, facet.next);
             }
+
         });
     }(facetsInfo, facets));
-    */
+
+    console.log(JSON.stringify(facetsInfo));
+    console.log('-----------------------');
 
 }
 

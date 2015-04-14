@@ -37,7 +37,7 @@ var mock = {
         cenas: 'xpot'
     },
     facets: [{
-        type: 'Competition',
+        type: 'competition',
         key: 'XXX',
         next: [{
             type: 'liteMarket',
