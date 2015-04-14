@@ -148,7 +148,7 @@ function buildFacets(baseResponse, facets) {
 
             var fieldKey;
             var facetObj = {
-                cardinality: 1
+                cardinality: facet.cardinality || 1
             };
 
             switch(facet.type) {

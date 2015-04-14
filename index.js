@@ -39,12 +39,14 @@ var mock = {
     facets: [{
         type: 'competition',
         key: 'XXX',
+        cardinality: 123,
         next: [{
             type: 'liteMarket',
             key: 'xpto'
         }, {
             type: 'event',
-            key: 'SAS'
+            key: 'SAS',
+            cardinality: 20
         }]
     }]
 };
