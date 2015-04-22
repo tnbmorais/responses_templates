@@ -168,14 +168,20 @@ function buildFacets(baseResponse, facets) {
 
             facetObj[fieldKey] = facet.key;
 
+            if (!facetsInfo.values) {
+                facetsInfo.values = [];
+            }
+
             facetsInfo.values.push(facetObj);
 
             if (facet.next) {
-                transverseFacets(facetsInfo, facet.next);
+                transverseFacets(facetsInfo.values[facetsInfo.values.length - 1], facet.next);
             }
 
         });
     }(facetsInfo, facets));
+
+    baseResponse.facets = facetsInfo;
 
     console.log(JSON.stringify(facetsInfo));
     console.log('-----------------------');
