@@ -46,7 +46,11 @@ var mock = {
         }, {
             type: 'event',
             key: 'SAS',
-            cardinality: 20
+            cardinality: 20,
+            next: [{
+                type: 'liteMarket',
+                key: 'xpto2'
+            }]
         }]
     }]
 };

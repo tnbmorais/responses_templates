@@ -148,6 +148,7 @@ function buildFacets(baseResponse, facets) {
 
             var fieldKey;
             var facetObj = {
+                key: {},
                 cardinality: facet.cardinality || 1
             };
 
@@ -166,7 +167,7 @@ function buildFacets(baseResponse, facets) {
                     break;
             }
 
-            facetObj[fieldKey] = facet.key;
+            facetObj.key[fieldKey] = facet.key;
 
             if (!facetsInfo.values) {
                 facetsInfo.values = [];
@@ -181,7 +182,7 @@ function buildFacets(baseResponse, facets) {
         });
     }(facetsInfo, facets));
 
-    baseResponse.facets = facetsInfo;
+    baseResponse.facets.push(facetsInfo);
 
     console.log(JSON.stringify(facetsInfo));
     console.log('-----------------------');
