@@ -41,15 +41,19 @@ var mock = {
         key: 'XXX',
         cardinality: 123,
         next: [{
-            type: 'liteMarket',
-            key: 'xpto'
-        }, {
-            type: 'event',
-            key: 'SAS',
-            cardinality: 20,
+            type: 'competitionRegion',
+            key: 'GBR',
             next: [{
                 type: 'liteMarket',
-                key: 'xpto2'
+                key: 'xpto'
+            }, {
+                type: 'event',
+                key: 'SAS',
+                cardinality: 20,
+                next: [{
+                    type: 'liteMarket',
+                    key: 'xpto2'
+                }]
             }]
         }]
     }]

@@ -167,7 +167,13 @@ function buildFacets(baseResponse, facets) {
                     break;
             }
 
-            facetObj.key[fieldKey] = facet.key;
+            // Competition region has diferent structure
+            if (facet.type === 'competitionRegion') {
+                facetObj.value = facet.key;
+                delete facetObj.key;
+            } else {
+                facetObj.key[fieldKey] = facet.key;
+            }
 
             if (!facetsInfo.values) {
                 facetsInfo.values = [];
