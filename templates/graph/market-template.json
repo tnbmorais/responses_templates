@@ -1,0 +1,44 @@
+"marketInfo": {
+    "marketId": "1.118864203",
+    "eventTypeId": 7511,
+    "eventId": 27448285,
+    "upperLevelEventId": 27289130,
+    "topLevelEventId": 27289130,
+    "numberOfUpperLevels": 1,
+    "marketName": "BAL +1.5 (Listed)",
+    "marketTime": "2015-05-22T23:10:00.000Z",
+    "marketSuspendTime": "2015-05-22T23:10:00.000Z",
+    "canTurnInPlay": true,
+    "marketType": "RUN_LINE_LISTED",
+    "bspMarket": false,
+    "inplay": false,
+    "totalMatched": 0,
+    "totalAvailable": 449,
+    "runners": [
+        {
+            "selectionId": 5441833,
+            "handicap": 0,
+            "runnerName": "BAL +1.5",
+            "sortPriority": 1,
+            "runnerStatus": "ACTIVE"
+        },
+        {
+            "selectionId": 6266191,
+            "handicap": 0,
+            "runnerName": "MIA -1.5",
+            "sortPriority": 2,
+            "runnerStatus": "ACTIVE"
+        }
+    ],
+    "betDelay": 0,
+    "numberOfWinners": 1,
+    "numberOfRunners": 2,
+    "numberOfActiveRunners": 2,
+    "associatedMarkets": [],
+    "marketLevels": [
+        "AVB_EVENT"
+    ],
+    "bettingType": "ODDS",
+    "marketStatus": "OPEN",
+    "productType": "EXCHANGE"
+}
