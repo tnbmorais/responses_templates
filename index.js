@@ -1,4 +1,5 @@
 var facetBuilder = require('./facet-builder.js');
+var graphBuilder = require('./graph-builder.js');
 
 /****************** FACET **********************/
 
@@ -59,6 +60,11 @@ var mock = {
     }]
 };
 
-var marketliteInformation = facetBuilder.constructFacetMock(mock);
+//var facetMock = facetBuilder.constructFacetMock(mock);
 
-console.log('RESPONSE', JSON.stringify(marketliteInformation));
+//console.log('RESPONSE', JSON.stringify(facetMock));
+
+/****************** GRAPH **********************/
+var graphMock = graphBuilder.constructGraphMock(mock);
+
+console.log('RESPONSE', JSON.stringify(graphMock));
