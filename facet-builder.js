@@ -196,7 +196,7 @@ function buildFacets(baseResponse, facets) {
 }
 
 
-function constructFacetMock(info) {
+function constructFacetMock(data) {
 
     var baseResponse = {
         facets: [],
@@ -205,13 +205,13 @@ function constructFacetMock(info) {
     };
 
     // Attachments
-    buildAttachments(baseResponse, info.attachments);
+    buildAttachments(baseResponse, data.attachments);
 
     // Results
-    buildResults(baseResponse, info.results);
+    buildResults(baseResponse, data.results);
 
     // Facets
-    buildFacets(baseResponse, info.facets);
+    buildFacets(baseResponse, data.facets);
 
     return baseResponse;
 

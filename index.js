@@ -65,6 +65,66 @@ var mock = {
 //console.log('RESPONSE', JSON.stringify(facetMock));
 
 /****************** GRAPH **********************/
+
+//http://hamdev411.aws.dev.ham.uk.betfair/graph.html#/bynode?nodeIds=MENU:27289130&maxInDistance=1&maxOutDistance=1&attachments=[EVENT,MENU,COMPETITION,MARKET]
+
+var mock = [{
+    nodeId: 'EVENT_TYPE:XXX',
+    name: 'SPORT XXX',
+    nodeType: 'EVENT_TYPE',
+    next: [{
+        nodeId: 'COMP:XXX',
+        name: 'COMPETITON XXX',
+        nodeType: 'COMP',
+        next: [{
+            nodeId: 'EVENT:XXX',
+            name: 'EVENT XXX',
+            nodeType: 'EVENT',
+            next: [{
+                nodeId: 'MARKET:XXX',
+                name: 'MARKET XXX',
+                nodeType: 'MARKET'
+            }]
+        }, {
+            nodeId: 'EVENT:YYY',
+            name: 'EVENT YYY',
+            nodeType: 'EVENT',
+            next: [{
+                nodeId: 'MARKET:YYY',
+                name: 'MARKET YYY',
+                nodeType: 'MARKET'
+            }]
+        }]
+    }, {
+        nodeId: 'COMP:YYY',
+        name: 'COMPETITON YYY',
+        nodeType: 'COMP',
+        next: [{
+            nodeId: 'EVENT:ZZZ',
+            name: 'EVENT ZZZ',
+            nodeType: 'EVENT',
+            next: [{
+                nodeId: 'MARKET:ZZZ',
+                name: 'MARKET ZZZ',
+                nodeType: 'MARKET'
+            }]
+        }, {
+            nodeId: 'EVENT:CCC',
+            name: 'EVENT CCC',
+            nodeType: 'EVENT',
+            next: [{
+                nodeId: 'MARKET:CCC',
+                name: 'MARKET CCC',
+                nodeType: 'MARKET'
+            }]
+        }]
+    }]
+}, {
+    nodeId: 'EVENT_TYPE:YYY',
+    name: 'SPORT YYY',
+    nodeType: 'EVENT_TYPE',
+}];
+
 var graphMock = graphBuilder.constructGraphMock(mock);
 
 console.log('RESPONSE', JSON.stringify(graphMock));
